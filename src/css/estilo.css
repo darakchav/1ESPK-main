@@ -149,6 +149,47 @@ section{
 }
 .medicao-item p{
     color: var(--second-color);
+    font-weight: 570;
     line-height: 1.2rem;
     margin-top: 1rem;
+}
+#contato{
+    margin-top: 100px;
+    color: var(--text-color2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 1rem;
+}
+.info-titulo{
+    margin-bottom: 50px;
+}
+.info-titulo,
+.info-texto{
+    background: linear-gradient(to right, yellow, aqua);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#email{
+    width: 350px;
+    height: 25px;
+    padding: 1rem;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.info-email::placeholder{
+    color: var(--bg-color);
+    padding: 0.1em;
+    padding-left: 30px;
+    background: url("../assets/email.svg")no-repeat;
+}
+.mensagem.hidden{
+    display: none;
+}
+h5{
+    display: flex;
+    color: var(--second-color);
+    justify-content: center;
+    font-weight: 600;
 }
